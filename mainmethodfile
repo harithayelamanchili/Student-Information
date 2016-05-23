@@ -1,9 +1,12 @@
-class newstudent
+class log
 {
 	public static void main(String args[])
 	{
+		Login l1=new Login();
+		l1.setBounds(300,300,300,250);
+		l1.setVisible(true);
 		Newpage nw=new Newpage();
 		nw.setBounds(0,0,1048,900);
 		nw.setVisible(true);
-		}
-}
+	}	
+}	
