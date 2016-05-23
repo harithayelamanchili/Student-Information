@@ -1,0 +1,9 @@
+class newstudent
+{
+	public static void main(String args[])
+	{
+		Newpage nw=new Newpage();
+		nw.setBounds(0,0,1048,900);
+		nw.setVisible(true);
+		}
+}
